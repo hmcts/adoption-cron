@@ -1,4 +1,4 @@
-name: probate-cron
+name: adoption-cron
 description: Probae cron jobs
 home: https://github.com/hmcts/adoption-cron
 apiVersion: v2

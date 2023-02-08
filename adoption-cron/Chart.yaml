@@ -1,5 +1,5 @@
 name: adoption-cron
-description: Probae cron jobs
+description: Adoption cron jobs
 home: https://github.com/hmcts/adoption-cron
 apiVersion: v2
 appVersion: "1.0"

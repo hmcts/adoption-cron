@@ -35,9 +35,6 @@ job:
     LA_PORTAL_BASEURL: https://adoption-web.{{ .Values.global.environment }}.platform.hmcts.net/la-portal/kba-case-ref
     APPLICATIONINSIGHTS_CONNECTION_STRING: ${APP_INSIGHTS_CONNECTION_KEY}
 
-  args:
-    - run
-    - AlertDraftCaseApplicantBeforeDeletionTask
   schedule: " 0/5 * * * *"
   concurrencyPolicy: Forbid
 global:

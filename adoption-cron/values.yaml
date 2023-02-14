@@ -21,7 +21,7 @@ job:
         - name: AppInsightsInstrumentationKey
           alias: APP_INSIGHTS_KEY
         - name: app-insight-connection-key
-          alias: APP_INSIGHTS_CONNECTION_KEY
+          alias: APPLICATIONINSIGHTS_CONNECTION_STRING
   environment:
     ADOPTION_WEB_CLIENT_ID: adoption-web
     ADOPTION_WEB_MICROSERVICE: adoption_web
@@ -37,7 +37,6 @@ job:
     DOC_ASSEMBLY_URL: http://dg-docassembly-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal
     DOCUMENT_MANAGEMENT_URL: http://dm-store-{{ .Values.global.environment }}.service.core-compute-{{ .Values.global.environment }}.internal
     LA_PORTAL_BASEURL: https://adoption-web.{{ .Values.global.environment }}.platform.hmcts.net/la-portal/kba-case-ref
-    APPLICATIONINSIGHTS_CONNECTION_STRING: ${APP_INSIGHTS_CONNECTION_KEY}
 
   schedule: " 0/5 * * * *"
   concurrencyPolicy: Forbid

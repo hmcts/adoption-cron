@@ -18,6 +18,10 @@ job:
           alias: IDAM_SYSTEM_UPDATE_PASSWORD
         - name: launchDarkly-sdk-key
           alias: LAUNCH_DARKLY_SDK_KEY
+        - name: AppInsightsInstrumentationKey
+          alias: APP_INSIGHTS_KEY
+        - name: app-insight-connection-key
+          alias: APP_INSIGHTS_CONNECTION_KEY
   environment:
     ADOPTION_WEB_CLIENT_ID: adoption-web
     ADOPTION_WEB_MICROSERVICE: adoption_web

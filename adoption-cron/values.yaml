@@ -20,10 +20,6 @@ job:
           alias: LAUNCH_DARKLY_SDK_KEY
         - name: AppInsightsInstrumentationKey
           alias: APP_INSIGHTS_KEY
-        - name: send-grid-api-key
-          alias: SEND_GRID_API_KEY
-        - name: sendgrid-notify-from-email
-          alias: SEND_GRID_NOTIFY_FROM_EMAIL
         - name: app-insight-connection-key
           alias: app-insight-connection-key
   environment:

@@ -21,7 +21,7 @@ job:
         - name: AppInsightsInstrumentationKey
           alias: APP_INSIGHTS_KEY
         - name: app-insight-connection-key
-          alias: APPLICATIONINSIGHTS_CONNECTION_STRING
+          alias: app-insight-connection-key
   environment:
     ADOPTION_WEB_CLIENT_ID: adoption-web
     ADOPTION_WEB_MICROSERVICE: adoption_web

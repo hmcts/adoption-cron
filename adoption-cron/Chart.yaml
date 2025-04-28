@@ -8,5 +8,5 @@ maintainers:
   - name: HMCTS Adoption Team
 dependencies:
   - name: job
-    version: 2.1.1
+    version: 2.2.0
     repository: oci://hmctspublic.azurecr.io/helm

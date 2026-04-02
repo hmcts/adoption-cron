@@ -24,6 +24,8 @@ jobs:
           chartName: adoption-cron
           chartReleaseName: adoption-cron-ci-test
           chartNamespace: chart-tests
+          aksResourceGroup: cft-preview-01-rg
+          aksCluster: cft-preview-01-aks
 
   - job: Release
     # Make sure we have a tag to run this job
@@ -41,3 +43,5 @@ jobs:
           chartName: adoption-cron
           chartReleaseName: adoption-cron
           chartNamespace: chart-tests
+          aksResourceGroup: cft-preview-00-rg
+          aksCluster: cft-preview-00-aks

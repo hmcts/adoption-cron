@@ -1,5 +1,5 @@
 job:
-  image: hmctspublic.azurecr.io/adoption/cos-api:latest
+  image: hmctsprod.azurecr.io/adoption/cos-api:latest
   aadIdentityName: adoption
   keyVaults:
     adoption:
